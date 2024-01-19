@@ -7,14 +7,14 @@
 
 float Solution1::ConvertTemperature(float _value, TemperatureUnits _from, TemperatureUnits _to)
 {
-	std::cout << "Choose your value : " << std::endl;
+	
+	/*std::cout << "Choose your value : " << std::endl;
 	std::cin >> _value;
 
 	std::cout << "Type the ID of the unit you want to convert from :  " << std::endl;
 	std::cout << "1 CELSIUS - 2 FAHRENHEIT - 3 KELVIN " << std::endl;
 	int fromID;
 	std::cin >> fromID;
-	
 
 	switch(fromID) 
 	{
@@ -45,7 +45,7 @@ float Solution1::ConvertTemperature(float _value, TemperatureUnits _from, Temper
 		case 3:
 			_to = TemperatureUnits::KELVIN;
 			break;
-	}
+	}*/
 
 	if ((_from == TemperatureUnits::CELSIUS) && (_to == TemperatureUnits::FAHRENHEIT))
 	{
